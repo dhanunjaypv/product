@@ -1,0 +1,163 @@
+{
+	"EventRequest": {
+		"EventObject": "ENTERPRISEPRODUCT",
+		"EventType": "CREATE",
+		"EventDateTime": "2018-12-26T00:00:00",
+		"EventSourceSystem": "GN",
+		"EventBusinessID": "CS",
+		"ProductData": [{
+			"ProductId": "AK800",
+			"ProductCategory": "HARDGOODS",
+			"ProductSubCategory": "BIC Resource Assignment",
+			"BlanksAllowed": "test",
+			"CopyChangeAllowed": "test",
+			"InkChangeAllowed": "test",
+			"HalftoneAllowed": "HalftoneAllowed",
+			"PmsMatch": "PmsMatch",
+			"QualifiesForEQP": "QualifiesForEQP",
+			"QualifiesForDSP": "QualifiesForDSP",
+			"CombinedQuanity": "CombinedQuanity",
+			"Material": "Material",
+			"SampleFlag": "Y",
+			"WebOrderableFlag": "Y",
+			"GNstatus": "A",
+			"EBSstatus": "A",
+			"StandardImprintColors": "DD",
+			"VirtualSample": "A",
+			"ProductName": "BIC Clic Stic Pen CS",
+			"ProductDescription": "BIC Clic Stic Pen",
+			"ProductNameCanada": "CS",
+			"CannotShipto": "UK",
+			"KeywordsArray": {
+				"Keywords": [{
+					"Keyword": "AVB"
+				}, {
+					"Keyword": "DD"
+				}]
+			},
+			"MarketingPointArray": {
+				"MarketingPoint": [{
+					"PointType": "dd",
+					"PointCopy": "dd"
+				}]
+			},
+			"ProductSubstatus": "live",
+			"SubStatusReason": "no",
+			"VisibleFlag": "Y",
+			"IsHazardous": "N",
+			"ActiveDate": "2018-12-26T00:00:00",
+			"IntroDate": "2018-12-26T00:00:00",
+			"EBSCreateDate": "2018-12-26T00:00:00",
+	
+			"OldProductId": "2392",
+			"Brand": "NIKE"
+	
+		}],
+		"ProductOrg": [{
+				"productId": "CS01",
+				"CategoryDetails": {
+					"CategoryDetail": [{
+						"categorySet": "BIC RESOURCE ASSIGNMENT",
+						"categoryCode": "Yagna",
+						"categoryName": "Antimicrobial",
+						"categoryStatus": "I",
+						"categoryEffDate": "27-OCT-15",
+						"SubCategoryDetails": {
+							"SubCategoryDetail": [{
+								"SubCategorycode": "BICSELECT",
+								"SubcategoryName": "Select",
+								"Subcategorystatus": "A",
+								"SubcategoryEffDate": ""
+							}]
+						}
+					}]
+				},
+				"AdditionalProducts": {
+					"AdditionalProductArray": [{
+						"RelationType": "ghgjh",
+						"Description": "Complimentary and Substitute Products",
+						"ProductName": "apple",
+						"ProductLine": "45",
+						"ProductId": "123"
+					}]
+				}
+			}],
+		"ProductAttributeData": [{
+				"ProductId": "CS05",
+				"ProductIncludes": "ABCDE",
+				"DecorationsArray": {
+					"Decorations": [{
+							"Method":"void",
+							"ImprintArea": "Barrel",
+							"Dimension": "2-1/8w x 3/4h",
+							"ColorsIncluded": "1",
+							"MaxColors": "3",
+							"ImprintType": "Standard"
+						}
+
+					]
+				},
+				"FeaturesArray": {
+					"features ": [{
+						"Feature": "Always in stock, always in stock, FREE setup,Break - resistant pocket clip ",
+						"FeatureCountry": "BTH"
+					}]
+				},
+				"CatalogNotesArray": {
+					"CatalogNotes": [{
+						"CatalogNote": "For multicolor imprints on clear barrels"
+					}]
+				},
+				"ProductAttributesArray": {
+					"ProductAttributes": [{
+							"AttributeId": "24HR",
+							"Attribute": "24HR",
+							"ItemId": "ABVD",
+							"AttributeName": "ABCDEFG",
+							"AttributeValue": "ABCDEFGZA",
+							"CatalogCountry": "US",
+							"AttributeCountry": "BTH"
+						}
+
+					]
+				},
+				"ImprintColorArray": [{
+					"ImprintColors": {
+						"ImprintMethod": "SCREN",
+						"ImprintDescription": "1 color on screen",
+						"ColorDescription": "Black",
+						"PmsColor": "h2121",
+						"PmsMatch": "ABCDEFGHIJK",
+						"HexColor": "RD2211",
+						"ProductParentColor": "ABCD"
+					}
+				}]
+			}],
+		"ProductShippingInfo": {
+				"ProductId": "CS07",
+				"ProductAlertsArray": {
+					"ProductAlerts": [{
+						"SequenceNum": "3",
+						"Alert": "BIC Graphic cannot quote, sell or ship this product outside of the United States, Canada, Puerto Rico, U.S. Virgin Islands, Guam, Northern Mariana Islands, and American Samoa.",
+						"CreationDate": "16-AUG-2017",
+						"AlertType": "products",
+						"AlertId": "124",
+						"Visibility": "Public",
+						"Country": "US",
+						"Status": "Active",
+						"LastUpdateDate": "16-AUG-2018"
+					},{
+						"SequenceNum": "3",
+						"Alert": "BIC Graphic cannot quote, sell or ship this product outside of the United States, Canada, Puerto Rico, U.S. Virgin Islands, Guam, Northern Mariana Islands, and American Samoa.",
+						"CreationDate": "16-AUG-2017",
+						"AlertType": "products",
+						"AlertId": "123",
+						"Visibility": "Public",
+						"Country": "US",
+						"Status": "Active",
+						"LastUpdateDate": "16-AUG-2018"
+					}]
+				}
+			}
+	}
+}

@@ -1,0 +1,505 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"ProductMarketingData": {
+			"type": "object",
+			"properties": {
+				"productId": {
+					"type": "string"
+				},
+				"ProductData": {
+					"type": "array",
+					"items": [{
+						"type": "object",
+						"properties": {
+							"ProductId": {
+								"type": "string"
+							},
+							"ProductCategory": {
+								"type": "string"
+							},
+							"ProductSubCategory": {
+								"type": "string"
+							},
+							"blanksAllowed": {
+								"type": "string"
+							},
+							"copyChangeAllowed": {
+								"type": "string"
+							},
+							"inkChangeAllowed": {
+								"type": "string"
+							},
+							"halftoneAllowed": {
+								"type": "string"
+							},
+							"pmsMatch": {
+								"type": "string"
+							},
+							"qualifiesForEQP": {
+								"type": "string"
+							},
+							"qualifiesForDSP": {
+								"type": "string"
+							},
+							"combinedQuanity": {
+								"type": "string"
+							},
+							"material": {
+								"type": "string"
+							},
+							"sampleFlag": {
+								"type": "string"
+							},
+							"webOrderableFlag": {
+								"type": "string"
+							},
+							"GNstatus": {
+								"type": "string"
+							},
+							"EBSstatus": {
+								"type": "string"
+							},
+							"standardImprintColors": {
+								"type": "string"
+							},
+							"VirtualSample": {
+								"type": "string"
+							},
+							"ProductName": {
+								"type": "string"
+							},
+							"ProductDescription": {
+								"type": "string"
+							},
+							"ProductNameCanada": {
+								"type": "string"
+							},
+							"cannotShipto": {
+								"type": "string"
+							},
+							"KeywordsArray": {
+								"type": "object",
+								"properties": {
+									"Keywords": {
+										"type": "array",
+										"items": [{
+												"type": "object",
+												"properties": {
+													"keyword": {
+														"type": "string"
+													}
+												},
+												"required": [
+													"keyword"
+												]
+											},
+											{
+												"type": "object",
+												"properties": {
+													"keyword": {
+														"type": "string"
+													}
+												},
+												"required": [
+													"keyword"
+												]
+											}
+										]
+									}
+								},
+								"required": [
+									"Keywords"
+								]
+							},
+							"MarketingPointArray": {
+								"type": "object",
+								"properties": {
+									"MarketingPoint": {
+										"type": "array",
+										"items": [{
+											"type": "object",
+											"properties": {
+												"pointType": {
+													"type": "string"
+												},
+												"pointCopy": {
+													"type": "string"
+												}
+											},
+											"required": [
+												"pointType",
+												"pointCopy"
+											]
+										}]
+									}
+								},
+								"required": [
+									"MarketingPoint"
+								]
+							},
+							"ProductSubstatus": {
+								"type": "string"
+							},
+							"SubStatusReason": {
+								"type": "string"
+							},
+							"VisibleFlag": {
+								"type": "string"
+							},
+							"IsHazardous": {
+								"type": "string"
+							},
+							"ActiveDate": {
+								"type": "string"
+							},
+							"IntroDate": {
+								"type": "string"
+							},
+							"EBSCreateDate": {
+								"type": "string"
+							},
+							"EBSIntroDate": {
+								"type": "string"
+							},
+							"OldProductId": {
+								"type": "string"
+							},
+							"Brand": {
+								"type": "string"
+							},
+
+							"ProductOrg": {
+								"type": "array",
+								"items": [{
+									"type": "object",
+									"properties": {
+										"productId": {
+											"type": "string"
+										},
+										"CategoryDetails": {
+											"type": "object",
+											"properties": {
+												"CategoryDetail": {
+													"type": "array",
+													"items": [{
+														"type": "object",
+														"properties": {
+															"categorySet": {
+																"type": "string"
+															},
+															"categoryCode": {
+																"type": "string"
+															},
+															"categoryName": {
+																"type": "string"
+															},
+															"categoryStatus": {
+																"type": "string"
+															},
+															"categoryEffDate": {
+																"type": "string"
+															},
+															"SubCategoryDetails": {
+																"type": "object",
+																"properties": {
+																	"SubCategoryDetail": {
+																		"type": "array",
+																		"items": [{
+																			"type": "object",
+																			"properties": {
+																				"subCategorycode": {
+																					"type": "string"
+																				},
+																				"SubcategoryName": {
+																					"type": "string"
+																				},
+																				"Subcategorystatus": {
+																					"type": "string"
+																				},
+																				"SubcategoryEffDate": {
+																					"type": "string"
+																				}
+																			}
+																		}]
+																	}
+																}
+															}
+														}
+													}]
+
+												}
+											}
+										},
+										"AdditionalProducts": {
+											"type": "object",
+											"properties": {
+												"AdditionalProductArray": {
+													"type": "array",
+													"items": [{
+														"type": "object",
+														"properties": {
+															"relationType": {
+																"type": "string"
+															},
+															"description": {
+																"type": "string"
+															},
+															"productName": {
+																"type": "string"
+															},
+															"productLine": {
+																"type": "string"
+															},
+															"productId": {
+																"type": "string"
+															}
+														},
+														"required": [
+															"productId"
+														]
+													}]
+												}
+											}
+										}
+									},
+									"required": [
+										"productId"
+									]
+								}]
+							},
+							"ProductAttributeData": {
+								"type": "array",
+								"items": [{
+									"type": "object",
+									"properties": {
+										"productid": {
+											"type": "string"
+										},
+										"productIncludes": {
+											"type": "string"
+										},
+										"decorationsArray": {
+											"type": "object",
+											"properties": {
+												"decorations": {
+													"type": "array",
+													"items": [{
+														"type": "object",
+														"properties": {
+															"imprintArea": {
+																"type": "string"
+															},
+															"dimension ": {
+																"type": "string"
+															},
+															"colorsIncluded  ": {
+																"type": "string"
+															},
+															"maxColors  ": {
+																"type": "string"
+															},
+															"imprintType   ": {
+																"type": "string"
+															}
+														}
+													}]
+												}
+											},
+											"required": [
+												"decorations"
+											]
+										},
+										"featuresArray": {
+											"type": "object",
+											"properties": {
+												"features ": {
+													"type": "array",
+													"items": [{
+														"type": "object",
+														"properties": {
+															"feature": {
+																"type": "string"
+															},
+															"featureCountry": {
+																"type": "string"
+															}
+														},
+														"required": [
+															"feature",
+															"featureCountry"
+														]
+													}]
+												}
+											},
+											"required": [
+												"features "
+											]
+										},
+										"CatalogNotesArray": {
+											"type": "object",
+											"properties": {
+												"CatalogNotes": {
+													"type": "array",
+													"items": [{
+														"type": "object",
+														"properties": {
+															"catalogNote": {
+																"type": "string"
+															}
+														},
+														"required": [
+															"catalogNote"
+														]
+													}]
+												}
+											},
+											"required": [
+												"CatalogNotes"
+											]
+										},
+										"ProductAttributesArray": {
+											"type": "object",
+											"properties": {
+												"productAttributes": {
+													"type": "array",
+													"items": [{
+														"type": "object",
+														"properties": {
+															"attributeId": {
+																"type": "string"
+															},
+															"Attribute": {
+																"type": "string"
+															},
+															"ItemId": {
+																"type": "string"
+															},
+															"attributeName": {
+																"type": "string"
+															},
+															"attributeValue": {
+																"type": "string"
+															},
+															"attributeCountry": {
+																"type": "string"
+															}
+														}
+													}]
+												}
+											}
+										},
+										"imprintColorArray": {
+											"type": "array",
+											"items": [{
+												"type": "object",
+												"properties": {
+													"imprintColors": {
+														"type": "object",
+														"properties": {
+															"imprintMethod": {
+																"type": "string"
+															},
+															"imprintDescription": {
+																"type": "string"
+															},
+															"colorDescription ": {
+																"type": "string"
+															},
+															"pmsColor": {
+																"type": "string"
+															},
+															"pmsMatch": {
+																"type": "string"
+															},
+															"hexColor": {
+																"type": "string"
+															},
+															"productParentColor": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}]
+										}
+									},
+									"required": [
+										"productid"
+									]
+								}]
+							},
+							"ProductShippingInfo": {
+								"type": "object",
+								"properties": {
+									"productId": {
+										"type": "string"
+									},
+									"productAlertsArray": {
+										"type": "object",
+										"properties": {
+											"items": {
+												"type": "array",
+												"items": [{
+													"type": "object",
+													"properties": {
+														"sequenceNum": {
+															"type": "string"
+														},
+														"alert": {
+															"type": "string"
+														},
+														"creationDate": {
+															"type": "string"
+														},
+														"AlertType": {
+															"type": "string"
+														},
+														"AlertId": {
+															"type": "string"
+														},
+														"Visibility": {
+															"type": "string"
+														},
+														"Country": {
+															"type": "string"
+														},
+														"Status": {
+															"type": "string"
+														},
+														"lastUpdateDate": {
+															"type": "string"
+														}
+													},
+													"required": [
+														"AlertId"
+													]
+												}]
+											}
+										}
+									},
+
+									"required": [
+										"productId"
+									]
+								},
+
+								"required": [
+									"ProductId"
+								]
+							}
+
+						}
+					}],
+					"required": [
+						"productId"
+					]
+				}
+			},
+			"required": [
+				"ProductMarketingData"
+			]
+		}
+	}
+}

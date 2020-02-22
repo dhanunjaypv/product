@@ -1,0 +1,9 @@
+{
+ "EventMetadata":{
+	"EventObject": "ENTERPRISEPRODUCT",
+	"EventType": "CREATE",
+	"EventDateTime": "2018-12-26T00:00:00",
+	"EventSourceSystem": "ODS",
+	"EventBusinessID": "669"
+}
+}
